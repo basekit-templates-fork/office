@@ -226,7 +226,7 @@
         "button": {
             "color__button--background": "transparent",
             "color__button--background--hover": "transparent",
-            "color__button--text": "@font-swatch7-color",
+            "color__button--text": "@font-swatch4-color",
             "font__button--font-family": "@font-swatch7-font-family",
             "font__button--font-size": "@font-swatch7-font-size",
             "font__button--font-weight": "@font-swatch7-font-weight",
