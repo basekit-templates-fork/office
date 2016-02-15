@@ -48,15 +48,17 @@ body {
 
 .navigation-toggle {
     @media @tablet {
-        top: 15px;
+        top: 0;
+        right: 30px;
     }
     @media @mobile {
         right: 5px;
+        top: 0;
     }
 }
 
 .navigation-list--children {
-    background-color: transparent;
+    background-color: fade(@color-swatch1, 20%);
 }
 
 .extendednavigation__navigation-toggle {
