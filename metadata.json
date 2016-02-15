@@ -234,7 +234,7 @@
             "font__button--letter-spacing": "@font-swatch7-letter-spacing"
         },
         "twitter": {
-            "color__twitter-item--background": "lighten(@color-swatch4,10%)",
+            "color__twitter-item--background": "lighten(@color-swatch3,10%)",
             "color__twitter-account-name--text": "@color__body--background",
             "color__twitter-tweet--text": "@color__body--background"
         },
