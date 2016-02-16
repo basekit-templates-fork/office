@@ -67,7 +67,7 @@ body {
 .bk-pt-default .header-extendednavigation {
     @media @tablet {
         right: 40px;
-        top: 40px;
+        top: 35px;
     }
     @media @mobile {
         top: 15px;
@@ -228,6 +228,12 @@ button.pause-toggle {
     padding: 0px 10px;
 }
 
+.responsiveslideshow .contain .figure {
+    @media @mobile {
+        background-size: cover;
+    }
+}
+
 
 // Click to Call
 // -----------------------
@@ -235,6 +241,9 @@ button.pause-toggle {
 .clicktocall__phone-number-link {
     &:hover {
         text-decoration: none;
+    }
+    @media @mobile {
+        padding: 0 0 10px;
     }
 }
 
