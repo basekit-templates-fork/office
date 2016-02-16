@@ -112,9 +112,10 @@ body {
 }
 
 .navigation-list {
+    background-color: transparent;
     @media @tablet {
-        background-color: fade(@color__feature-content--background, 0%);
-    }
+        background-color: @color__navigation-list--background;
+    }   
 }
 
 .navigation-item.folder .item-name:hover {
