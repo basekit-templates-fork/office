@@ -128,6 +128,9 @@ body {
 .navigation-item .item-name:hover {
     box-shadow: 0 3px 0 0;
     border: 0;
+    @media @tablet {
+        box-shadow: none;
+    }
 }
 
 
@@ -188,6 +191,7 @@ button,
     border-bottom: 3px solid @color__feature-button--text;
     padding: 0 0 10px;
     color: @color__feature-button--text;
+    margin: 0;
 }
 
 
