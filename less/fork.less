@@ -28,6 +28,16 @@ body {
     width: 98%;
 }
 
+.bk-pt-default .template-header {
+    width: 100%;
+}
+
+.bk-pt-default .navigation-toggle {
+    @media @tablet {
+        right: 10px;
+    }
+}
+
 .companyname__company-link {
     a:hover {
         text-decoration: none;
@@ -58,11 +68,12 @@ body {
 
 .bk-pt-default .header-extendednavigation {
     @media @tablet {
-        right: 10px;
+        right: 40px;
         top: 40px;
     }
     @media @mobile {
         top: 15px;
+        right: 20px;
     }
 }
 
@@ -216,6 +227,20 @@ button.pause-toggle {
     &:hover {
         text-decoration: none;
     }
+}
+
+
+// Footer
+// -----------------------
+
+.template-footer [data-widget-type="content"] {
+    @media @mobile {
+        margin-right: 0;
+    }
+}
+
+.footer-wrapper {
+    padding: 0;
 }
 
 
