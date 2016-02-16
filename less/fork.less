@@ -16,7 +16,8 @@ body {
 }
 
 .container, .bk-pt-home .template-footer {
-    margin: 0 6%;
+    padding: 0 6%;
+    width: 100%;
 }
 
 .header-wrapper {
@@ -85,7 +86,9 @@ body {
 }
 
 .navigation-toggle {
-    right: 10px;
+    @media @tablet {
+        right: 0px;
+    }
 }
 
 .navigation-list--children {
@@ -243,6 +246,25 @@ button.pause-toggle {
 
 .input--search.ecomproductslist__input {
     height: 36px;
+}
+
+.message {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    &:before {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+}
+
+.ecombasketsummary__continue-shopping {
+    text-align: center;
+    margin: 20px auto;
+    display: block;
+    width: 140px;
 }
 
 
