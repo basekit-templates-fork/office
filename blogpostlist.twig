@@ -3,26 +3,22 @@
 {% block content %}
  
 <div class="bk-pt-default">
-    <!-- Container -->
-    <div class="container">
  
-        <div class="main-content"><!-- adds sticky footer-->
- 
-            {% include "includes/header.twig" %}
- 
-            <!-- Page Content -->
-            <section class="template-content blog-post-container">
- 
-                {{widget('blogpostlist', 'allblogposts', {})|raw}}
- 
-            </section>
-            <!-- End Page Content -->
- 
-        </div>
- 
-        {% include "includes/footer.twig" %}
- 
-    </div>
+     <div class="main-content"><!-- adds sticky footer-->
+
+         {% include "includes/header.twig" %}
+
+         <!-- Page Content -->
+         <section class="template-content blog-post-container">
+
+             {{widget('blogpostlist', 'allblogposts', {})|raw}}
+
+         </section>
+         <!-- End Page Content -->
+
+     </div>
+
+     {% include "includes/footer.twig" %}
  
 </div>
  
